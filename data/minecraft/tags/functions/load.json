@@ -1,0 +1,6 @@
+#here you have the function that will trigger when you do /reload
+{
+  "values":[
+	"dnd:setup"
+  ]
+}
