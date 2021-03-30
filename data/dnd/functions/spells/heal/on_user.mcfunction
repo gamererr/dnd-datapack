@@ -1,3 +1,3 @@
-execute positioned ~ ~1 ~ run particle happy_villager ^ ^ ^2 1 1 1 0 150 force
+execute at @s run particle happy_villager ~ ~1 ~ 0.5 0.5 0.5 0 50 force
 
 effect give @s instant_health 1 1
