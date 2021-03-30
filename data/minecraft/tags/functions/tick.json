@@ -1,6 +1,4 @@
-#this function will be triggered every tick when the pack is enabled
 {
   "values":[
-	"dnd:main"
   ]
 }

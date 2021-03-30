@@ -1,10 +1,6 @@
-# the "pack_format is the version, 6 is 1.16, 5 is 1.15 etc...
-#
-# in description you just put a funny description for the pack
-
- {
-       "pack": {
-           "pack_format": 6,
-           "description": "doug eons and drag ons"
-       }
-   }
+{
+    "pack": {
+       "pack_format": 6,
+       "description": "doug eons and drag ons"
+    }
+}
