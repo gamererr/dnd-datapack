@@ -1,0 +1,1 @@
+team leave FaerieFire @e
