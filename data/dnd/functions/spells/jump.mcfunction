@@ -1,5 +1,7 @@
 effect give @s minecraft:jump_boost 5 10 true
 
-particle dust 0 1 0 1 ^ ^ ^ 0.25 1.25 0.25 0 250 force
+tag @s add Jump
+
+execute at @s run schedule function dnd:spells/remove_jump 5s append
 
 playsound minecraft:entity.rabbit.ambient master @a[distance=..20] ~ ~ ~ 100

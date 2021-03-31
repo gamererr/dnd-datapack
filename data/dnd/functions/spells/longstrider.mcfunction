@@ -1,5 +1,7 @@
 effect give @s minecraft:speed 10 5 true
 
-particle dolphin ^ ^ ^ 0.25 1.25 0.25 0 250 force
+tag @s add Speed
+
+execute at @s run schedule function dnd:spells/remove_speed 10s replace
 
 playsound minecraft:entity.rabbit.ambient master @a[distance=..20] ~ ~ ~ 100
