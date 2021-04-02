@@ -22,12 +22,12 @@ scoreboard players reset @a[scores={HealingWord=1..}] HealingWord
 scoreboard players reset @a[scores={HealSelf=1..}] HealSelf
 scoreboard players reset @a[scores={HealingWordSelf=1..}] HealingWordSelf
 
-scoreboard players enable @a FaerieFire
-scoreboard players enable @a Fireball
-scoreboard players enable @a Invisibility
-scoreboard players enable @a Jump
-scoreboard players enable @a Speed
-scoreboard players enable @a Heal
-scoreboard players enable @a HealingWord
-scoreboard players enable @a HealSelf
-scoreboard players enable @a HealingWordSelf
+scoreboard players enable @a[level=1..] FaerieFire
+scoreboard players enable @a[level=3..] Fireball
+scoreboard players enable @a[level=5..] Invisibility
+scoreboard players enable @a[level=2..] Jump
+scoreboard players enable @a[level=2..] Speed
+scoreboard players enable @a[level=5..] Heal
+scoreboard players enable @a[level=1..] HealingWord
+scoreboard players enable @a[level=5..] HealSelf
+scoreboard players enable @a[level=1..] HealingWordSelf
