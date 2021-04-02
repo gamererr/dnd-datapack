@@ -1,10 +1,12 @@
-scoreboard objectives add DND_Pos_X1 dummy
-scoreboard objectives add DND_Pos_Y1 dummy
-scoreboard objectives add DND_Pos_Z1 dummy
-
-scoreboard objectives add DND_Pos_X2 dummy
-scoreboard objectives add DND_Pos_Y2 dummy
-scoreboard objectives add DND_Pos_Z2 dummy
+scoreboard objectives add FaerieFire trigger
+scoreboard objectives add Fireball trigger
+scoreboard objectives add Invisibility trigger
+scoreboard objectives add Jump trigger
+scoreboard objectives add Speed trigger
+scoreboard objectives add Heal trigger
+scoreboard objectives add HealingWord trigger
+scoreboard objectives add HealSelf trigger
+scoreboard objectives add HealingWordSelf trigger
 
 team add FaerieFire "FaerieFire"
 
