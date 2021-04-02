@@ -15,3 +15,4 @@ team modify FaerieFire color dark_purple
 tellraw @a "the pack is now enabled :D"
 
 scoreboard objectives add SupportBook trigger
+scoreboard objectives add RougeBook trigger

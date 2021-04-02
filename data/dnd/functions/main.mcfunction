@@ -24,13 +24,13 @@ scoreboard players reset @a[scores={HealingWordSelf=1..}] HealingWordSelf
 
 scoreboard players enable @a[level=1..,tag=SupportClass] FaerieFire
 scoreboard players enable @a[level=3..] Fireball
-scoreboard players enable @a[level=5..] Invisibility
-scoreboard players enable @a[level=2..] Jump
-scoreboard players enable @a[level=2..] Speed
+scoreboard players enable @a[level=5..,tag=RougeClass] Invisibility
+scoreboard players enable @a[level=2..,tag=RougeClass] Jump
+scoreboard players enable @a[level=2..,tag=RougeClass] Speed
 scoreboard players enable @a[level=5..,tag=SupportClass] Heal
 scoreboard players enable @a[level=1..,tag=SupportClass] HealingWord
 scoreboard players enable @a[level=5..,tag=SupportClass] HealSelf
-scoreboard players enable @a[level=1..,tag=SupportClass] HealingWordSelf
+scoreboard players enable @a[level=1..,tag=SupportClass,tag=RougeClass] HealingWordSelf
 
 
 execute as @a[scores={SupportBook=1..},tag=!HasClass] at @a[scores={SupportBook=1..},tag=!HasClass] run function dnd:books/support
@@ -38,3 +38,9 @@ tag @a[scores={SupportBook=1..},tag=!HasClass] add HasClass
 tag @a[scores={SupportBook=1..},tag=!HasClass] add SupportClass
 scoreboard players enable @a[tag=!HasClass] SupportBook
 scoreboard players reset @a[scores={SupportBook=1..}] SupportBook
+
+execute as @a[scores={RougeBook=1..},tag=!HasClass] at @a[scores={RougeBook=1..},tag=!HasClass] run function dnd:books/rouge
+tag @a[scores={RougeBook=1..},tag=!HasClass] add HasClass
+tag @a[scores={RougeBook=1..},tag=!HasClass] add RougeClass
+scoreboard players enable @a[tag=!HasClass] RougeBook
+scoreboard players reset @a[scores={RougeBook=1..}] RougeBook
