@@ -1,4 +1,4 @@
-effect give @s minecraft:jump_boost 5 10 true
+effect give @s minecraft:jump_boost 5 7 true
 
 tag @s add Jump
 

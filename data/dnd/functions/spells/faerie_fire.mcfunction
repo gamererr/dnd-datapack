@@ -10,8 +10,6 @@ execute at @s run effect give @e[tag=!Caster,type=!item_frame,type=!armor_stand,
 
 execute at @s run effect give @e[tag=!Caster,type=!item_frame,type=!armor_stand,distance=..20] weakness 60 0
 
-execute at @s run team join FaerieFire @e[tag=!Caster,type=!item_frame,type=!armor_stand,distance=..20]
-
 execute at @s run playsound minecraft:block.beacon.activate master @a[distance=..20] ~ ~ ~
 
 tag @s remove Caster

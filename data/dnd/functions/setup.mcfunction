@@ -8,9 +8,8 @@ scoreboard objectives add HealingWord trigger
 scoreboard objectives add HealSelf trigger
 scoreboard objectives add HealingWordSelf trigger
 
-team add FaerieFire "FaerieFire"
-
-team modify FaerieFire color dark_purple
+team add Necromancer "Necromancer"
+team modify Necromancer friendlyFire false
 
 tellraw @a "the pack is now enabled :D"
 
