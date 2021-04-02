@@ -14,4 +14,4 @@ execute at @s run team join FaerieFire @e[tag=!Caster,type=!item_frame,type=!arm
 
 execute at @s run playsound minecraft:block.beacon.activate master @a[distance=..20] ~ ~ ~
 
-experience add @s -1 levels
+tag @s remove Caster
