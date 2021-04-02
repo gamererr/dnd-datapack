@@ -1,1 +1,0 @@
-tag @a[tag=Jump,limit=1,sort=nearest] remove Jump
